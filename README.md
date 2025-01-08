@@ -26,10 +26,7 @@ This section should list a lenguages I used in this project:
 - [HTML](https://es.wikipedia.org/wiki/HTML)
 - [CSS](https://es.wikipedia.org/wiki/CSS)
 - [JavaScript](https://es.wikipedia.org/wiki/JavaScript)
-## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 ## Usage
 
 Open the Cesar Cipher web application in your browser. Locate the input field labeled "Enter the text" and type the text you want to encode in this field. For example, "Hello World." Find the slider or input field labeled "Shift Value" and adjust the slider or enter a number to specify the shift value. This is the number of positions that each letter in your text will be shifted in the alphabet. For example, setting the shift value to 3 will change 'A' to 'D', 'B' to 'E', etc. The encoded text will appear in the output field or area labeled "Result." For example, if you encode "Hello World" with a shift value of 3, the result might be "Khoor Zruog." Now you can copy the encoded text to your clipboard to use it elsewhere or save it as needed.
