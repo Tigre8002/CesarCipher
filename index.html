@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cesar Cipher</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Cesar Cipher</h1>
+        <form id="cifrador" autocomplete="off">
+            <input type="text" id="input" spellcheck="false" placeholder="Enter the text" name="text">
+        </form>
+        <p id="result"></p>
+        <div class="rango">
+            <input type="range" id="rango" min="1" value="10" max="20" oninput="this.nextElementSibling.value = this.value">
+            <output>10</output>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

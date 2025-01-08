@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: "Source Code Pro", serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #5c4b7a;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+main{
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+h1{
+    margin: 0;
+}
+
+#input, #rango, #resultado{
+    background-color: rgb(40, 66, 40);
+    width: 80%;
+    border-radius: 15px;
+}
+
+#input {
+    margin: 10px 0 0;
+    padding: 10px;
+    color: white;
+}
